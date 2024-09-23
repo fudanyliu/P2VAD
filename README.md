@@ -2,6 +2,16 @@
 
 This is the official repository for the paper titled **"Privacy-Preserving Video Anomaly Detection: A Survey"**, submitted to 📰 [IEEE Transactions on Circuits and Systems for Video Technology](https://ieee-cas.org/publication/tcsvt).  Video Anomaly Detection (VAD) aims to automatically analyze spatiotemporal patterns in surveillance videos collected from open spaces to detect anomalous events that may cause harm without physical contact. VAD has broad applications in smart cities and public services. However, vision-based surveillance systems such as closed-circuit television often capture personally identifiable information and sensitive environmental data. The lack of transparency and interpretability in data transmission and usage raises public concerns about privacy and ethics, limiting the real-world adoption of VAD technology. Recently, researchers have started addressing privacy concerns in VAD by conducting systematic studies from perspectives including data, features, and systems, which not only enhance public trust but also demonstrate performance advantages in various scenarios such as crowded spaces, making *Privacy-Preserving Video Anomaly Detection (P2VAD)* a hotspot in the AI community. However, current research in P2VAD is fragmented, and prior reviews have mostly focused on methods using RGB sequences, overlooking privacy leakage and appearance bias considerations. To address this gap, this article systematically reviews the progress of P2VAD for the first time, defining its scope and providing an intuitive taxonomy. In this repository, we provide open access to P2VAD-related research resources.
 
+## 📁 Taxonomy
+
+### 📌 Taxonomy System
+
+![taxo](taxo.png)
+
+### 📊 Comparison and Dicussion
+
+![compa](comp.png)
+
 ## 📷 Datasets
 
 ### 🔓 Generailized VAD Datasets
@@ -35,18 +45,6 @@ $^{**}$ *This dataset is reorganized from [ShanghaiTech](https://svip-lab.github
 - [Anonymized XD-Violence](https://joefioresi718.github.io/TeD-SPAD_webpage/)
 - [Ubnormal](https://github.com/lilygeorgescu/UBnormal) 
 - [PHEVA](https://github.com/tecsar-uncc/pheva)  
-
-## 📁 Taxonomy
-
-### 📌 Taxonomy System
-
-![taxo](taxo.png)
-
-### 📊 Comparison and Dicussion
-
-![compa](comp.png)
-
-
 
 ## 💬 Workshops & Tutorials
 
